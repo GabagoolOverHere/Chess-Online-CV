@@ -261,7 +261,7 @@ whiteKing.addEventListener("click", function (event) {
     'div[hover-id="white-king"], .e1, .e2, .f2, .g1'
   );
   whiteKingSquares.forEach(function (item) {
-    if (item.classList.contains(".white-king-defense-square")) {
+    if (item.classList.contains("white-king-defense-square")) {
       item.classList.remove("white-king-defense-square");
     } else {
       item.classList.add("white-king-defense-square");
