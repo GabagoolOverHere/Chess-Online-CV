@@ -456,7 +456,7 @@ linkedinButton.addEventListener("click", function () {
       }
     }
   }
-}
+});
 
 const whiteQueen = document.getElementById("white-queen");
 
