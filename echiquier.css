@@ -760,16 +760,6 @@ body {
   background-color: #769655;
 }
 
-@media all and (max-width: 1390px) {
-  .block-page {
-    margin: 0 0 0 0;
-  }
-
-  .instructions {
-    padding: 2vh 2vh;
-  }
-}
-
 @media all and (max-width: 1180px) {
   .block-page {
     flex-direction: column;
