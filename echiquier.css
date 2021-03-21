@@ -21,6 +21,7 @@ body {
 }
 
 .block-page {
+  min-width: 100vw;
   display: flex;
   align-items: center;
   margin: 8vh 8vh 15vh 8vh;
