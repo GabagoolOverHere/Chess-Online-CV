@@ -114,6 +114,10 @@ body {
   max-width: initial;
 }
 
+.cvvictor>img{
+  object-fit: contain;
+}
+
 .download,
 .contact,
 .linkedin {
