@@ -120,6 +120,481 @@
         </div>
 
         <div class="h7">
+          <div id="black-king">
+            <img src="./Images/black-king.png" alt="Roi Noir /" />
+          </div>
+        </div>
+
+        <div
+          class="a6"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="b6"
+          hover-id="white-queen"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="c6"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="d6"
+          hover-id="white-knight"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="e6"
+          hover-id="white-queen"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="f6"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="g6"
+          hover-id="black-king"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+
+        <div
+          class="h6"
+          hover-id="white-knight"
+          aide-id="help"
+          draggable-id="white-queen"
+          ondragover="allowDrop(event)"
+          ondragleave="leaveDrop(event)"
+          ondrop="return droph6(event)"
+        >
+          <div class="black-king-text">
+            <p>Roi noir</p>
+            <p>Sera bientôt en échec et mat en un coup de la dame D:</p>
+            <p>Cliquez dessus pour voir les cases qu'il défend !</p>
+          </div>
+        </div>
+
+        <div
+          class="a5"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="b5"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="c5"
+          hover-id="white-queen"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="d5"
+          hover-id="white-rook"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="e5"
+          hover-id="white-knight"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="f5"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+
+        <div
+          class="g5"
+          hover-id="white-knight"
+          draggable-id="white-queen"
+          ondrop="return dropg5(event)"
+          aide-id="help"
+          ondragover="allowDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+
+        <div
+          class="h5"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="a4"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="b4"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="c4"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="d4"
+          hover-id="white-rook"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="e4"
+          hover-id="white-queen"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="f4"
+          hover-id="white-queen"
+          draggable-id="white-queen"
+          ondrop="return dropf4(event)"
+          aide-id="help"
+          ondragover="allowDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+
+        <div
+          class="g4"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="h4"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="a3"
+          hover-id="white-queen"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="b3"
+          hover-id="white-queen"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="c3"
+          hover-id="white-queen"
+          showDrop
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="d3"
+          hover-id="white-rook"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+
+        <div class="e3">
+          <div
+            id="white-queen"
+            ondragstart="dragStart(event)"
+            ondragend="dragEnd(event)"
+            draggable="true"
+          >
+            <img src="./Images/white-queen.png" alt="Reine Blanche" />
+          </div>
+        </div>
+
+        <div
+          class="f3"
+          hover-id="white-queen"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        >
+          <div class="white-queen-text">
+            <p>Dame blanche</p>
+            <p>Peut se déplacer dans toutes les directions</p>
+            <p>Cliquez dessus pour voir les cases qu'elle défend !</p>
+          </div>
+        </div>
+        <div
+          class="g3"
+          hover-id="white-queen"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="h3"
+          hover-id="white-queen"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="a2"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="b2"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="c2"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="d2"
+          hover-id="white-rook"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="e2"
+          hover-id="white-queen"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="f2"
+          hover-id="white-queen"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="g2"
+          hover-id="white-king"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="h2"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="a1"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="b1"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="c1"
+          hover-id="white-queen"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="d1"
+          hover-id="white-rook"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="e1"
+          hover-id="white-queen"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+
+        <div class="f1">
+          <div id="white-king">
+            <img src="./Images/white-king.png" alt="Roi Blanc /" />
+          </div>
+        </div>
+
+        <div
+          class="g1"
+          hover-id="white-queen"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        >
+          <div class="white-king-text">
+            <p>Roi blanc</p>
+            <p>Se déplace dans toutes les directions d'une case</p>
+            <p>Cliquez dessus pour voir les cases qu'il défend !</p>
+          </div>
+        </div>
+        <div
+          class="h1"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+      </div>
+      <section class="instructions">
+        <p>
+          Le <span id="instructions-black-king">roi noir</span> peut être mis en
+          échec et mat EN UN COUP de la
+          <span id="instructions-white-queen">dame blanche</span>.
+        </p>
+        <p id="challenge">Saurez-vous trouver ce coup ?</p>
+        <p>
+          L'échec et mat est une situation dans laquelle un roi est menacé de
+          capture au prochain coup et pour laquelle aucune parade n'est possible
+          pour l'éviter. La partie prend alors fin immédiatement (le roi n'est
+          jamais capturé) et le joueur qui inflige le mat en est déclaré
+          vainqueur.
+        </p>
+        <p>
+          Vous pouvez interagir avec les pièces sur l'échiquier, et avec les
+          boutons ci-dessous pour obtenir plus d'informations !
+        </p>
+        <p>Bonne chance ! :)</p>
+        <div class="instructions-links">
+          <a id="help" href="http://">AFFICHER LES CASES POTENTIELLES</a>
+          <a id="solution" href="http://">OBTENIR LA SOLUTION </a>
+          <a id="skip" href="http://" onclick="pageChange()"
+            >PASSER LE MINI JEU</a
+          >
+        </div>
+      </section>
+    </div>
+
+    <div class="modal-escape-bg">
+      <div class="modal-escape">
+        <p>Le roi a pu s'échapper !</p>
+        <div class="retry-escape">
+          <i class="fas fa-undo"></i>
+          <p>Réessayer</p>
+        </div>
+        <div class="skip-escape">
+          <i class="fas fa-forward" onclick="pageChange()"></i>
+          <p>Passer</p>
+        </div>
+      </div>
+    </div>
+    <div class="modal-pat-bg">
+      <div class="modal-pat">
+        <p>Pat / Match nul :</p>
+        <ul>
+          <li>C'est au tour des noirs de jouer</li>
+          <li>Le roi noir n'est pas sous le coup d'un échec</li>
+          <li>
+            Le roi noir ne peut plus jouer de coup légal <br />(toute les cases
+            autour de lui à part la sienne <br />
+            sont défendues par les pièces blanches
+          </li>
+        </ul>
+        <div class="retry-pat">
+          <i class="fas fa-undo"></i>
+          <p>Réessayer</p>
+        </div>
+        <div class="skip-pat">
+          <i class="fas fa-forward" onclick="pageChange()"></i>
+          <p>Passer</p>
+        </div>
+      </div>
+    </div>
+    <section class="cvvictor">
+      <img src="./Images/cv.jpg" alt="CV de Victor Martin" />
+      <div class="icons">
+        <div class="download">
+          <i class="fas fa-download"></i>
+          <p>Télecharger</p>
+        </div>
+        <div class="contact">
+          <i class="fas fa-envelope"></i>
+          <p>Contact</p>
+        </div>
+        <div class="linkedin">
+          <i class="fab fa-linkedin"></i>
+          <p>LinkedIn</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        >
+          <div class="white-rook-text">
+            <p>Tour blanche</p>
+            <p>Peut se mouvoir verticalement et horizontalement</p>
+            <p>Cliquez dessus pour voir les cases qu'elle défend !</p>
+          </div>
+        </div>
+        <div
+          class="f8"
+          hover-id="white-rook"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="g8"
+          hover-id="white-rook"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="h8"
+          hover-id="white-knight"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="a7"
+          hover-id="white-queen"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="b7"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="c7"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="d7"
+          hover-id="white-rook"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+        <div
+          class="e7"
+          hover-id="white-queen"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        ></div>
+
+        <div class="f7">
+          <div id="white-knight">
+            <img src="./Images/white-knight.png" alt="Cavalier Blanc /" />
+          </div>
+        </div>
+
+        <div
+          class="g7"
+          hover-id="black-king"
+          ondragover="showDrop(event)"
+          ondragleave="leaveDrop(event)"
+        >
+          <div class="white-knight-text">
+            <p>Cavalier blanc</p>
+            <p>Se déplace en "L"</p>
+            <p>Cliquez dessus pour voir les cases qu'il défend !</p>
+          </div>
+        </div>
+
+        <div class="h7">
           <div id="black-king"><img src="./Images/black-king.png" alt="Roi Noir /" /></div>
         </div>
 
