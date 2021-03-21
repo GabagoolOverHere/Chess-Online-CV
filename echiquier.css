@@ -17,14 +17,12 @@
 body {
   font-family: "arsenalregular";
   background-color: rgb(48, 47, 47);
-  overflow: hidden;
 }
 
 .block-page {
-  min-width: 100vw;
   display: flex;
   align-items: center;
-  margin: 8vh 8vh 15vh 8vh;
+  margin: 5vh 10px 10px 10px;
 }
 
 #opacity {
@@ -165,7 +163,6 @@ body {
 }
 
 .instructions {
-  margin-left: 5vh;
   padding: 2vh 5vh;
 }
 
@@ -760,14 +757,9 @@ body {
   background-color: #769655;
 }
 
-@media all and (max-width: 1180px) {
+@media all and (max-width: 1400px) {
   .block-page {
     flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .instructions {
-    border: none;
   }
 }
 
